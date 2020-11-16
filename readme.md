@@ -71,9 +71,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Je startniveau:** Rood
 
-**Je focus:** 
+**Je focus:** Responsive
 
-**Je opdracht:** -link naar de website die je gaat namaken óf de naam van je eigen ontwerp-
+**Je opdracht:** https://www.reef.eu/
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
