@@ -3,3 +3,68 @@
   box-sizing:border-box;  
 }
 
+main section:nth-of-type(2) p { 
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 2em;
+    color: gray;
+    padding:0 3em  0 3em;;
+    font-weight: 200;
+    font-size: 1em;
+}
+
+main section:nth-of-type(2) h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    letter-spacing: -1px;
+    font-weight: 700;
+    color: darkslategray;
+    margin-bottom: 0;
+    
+}
+
+main section:nth-of-type(2) h3{
+    text-align: center;
+    margin-top: 2em;
+    color: gray;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+}
+
+main section:nth-of-type(5){
+    background-color: yellow;
+    position: relative;
+    padding-bottom: 7em;
+    margin: 0;
+    
+}
+
+main section:nth-of-type(5) h1{
+    color: orangered;
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-align: center;
+    padding: 4em 1em 2em;
+    font-size: 2em;
+    line-height: 1em;
+    
+}
+main section:nth-of-type(5) button{
+    background-color: orangered;
+    color: deepskyblue;
+    padding: 1em;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.1em;
+    left: 6em;
+    position: absolute;
+    border: 0;
+    
+    
+    
+
+    
+    
+}
