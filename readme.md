@@ -38,7 +38,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+Vind het lastig om weer op gang te komen. Alles voelt weer een beetje nieuw, dus is het weer enorm wennen. Ik hoop dat de HTML nu een beetje goed gaat in ieder geval, want ik merkte dat dat echt stroef verliep de eerste weken. Ik ben met css begonnen, maar ben nog totaal niet ver. Ik was enorm druk met het afronden van mijn projectsfase dus had weinig tijd voor Frontend helaas.
 
 **Screenshot(s):**
 
