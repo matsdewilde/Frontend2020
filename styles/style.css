@@ -1,14 +1,17 @@
 /* CSS Document */
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
 }
 
-main section:nth-of-type(2) p { 
+main section:nth-of-type(2) p {
     font-family: sans-serif;
     text-align: center;
     line-height: 2em;
     color: gray;
-    padding:0 3em  0 3em;;
+    padding: 0 3em 0 3em;
+    ;
     font-weight: 200;
     font-size: 1em;
 }
@@ -21,10 +24,10 @@ main section:nth-of-type(2) h2 {
     font-weight: 700;
     color: darkslategray;
     margin-bottom: 0;
-    
+
 }
 
-main section:nth-of-type(2) h3{
+main section:nth-of-type(2) h3 {
     text-align: center;
     margin-top: 2em;
     color: gray;
@@ -33,27 +36,28 @@ main section:nth-of-type(2) h3{
     font-size: 1em;
 }
 
-main section:nth-of-type(5){
-    background-color: yellow;
+main section:nth-of-type(5) {
+    background-color: #f7f244;
     position: relative;
     padding-bottom: 7em;
     margin: 0;
-    
+
 }
 
-main section:nth-of-type(5) h1{
-    color: orangered;
+main section:nth-of-type(5) h1 {
+    color: #f35737;
     text-transform: uppercase;
     font-weight: bolder;
     text-align: center;
     padding: 4em 1em 2em;
     font-size: 2em;
     line-height: 1em;
-    
+
 }
-main section:nth-of-type(5) button{
-    background-color: orangered;
-    color: deepskyblue;
+
+main section:nth-of-type(5) button {
+    background-color: #f35737;
+    color: #59f0e4;
     padding: 1em;
     text-transform: uppercase;
     text-align: center;
@@ -61,10 +65,379 @@ main section:nth-of-type(5) button{
     left: 6em;
     position: absolute;
     border: 0;
+
+}
+
+
+
+header section:nth-of-type(2) {
+    background-color: #222;
+    color: #fff;
+    font-size: 9px;
+    text-transform: uppercase;
+    padding: 1px;
+    width: 100%;
+    margin: 0;
+    text-align: center;
     
+    
+}
+
+
+
+header nav ul{
+    background-color: #F9F9F9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0 1em;
+    position: relative;
+}
+
+header nav img{
+    height: 25px;
+    text-decoration: none;
+}
+
+header nav li:nth-of-type(3){
+   position: absolute;
+   left: 40%;
+    right: 50%;
+    top: 0;
+
+}
+
+header nav li:nth-of-type(3) img{
+   height: 70px;
+    
+
+}
+
+header nav {
+    
+}
+header section:first-of-type{
+    padding: 15px;
+    display: none;
+
+}
+
+#menu{
+    padding: 15px;
+    display: block;
+
+}
+
+header section:first-of-type li{
+    color: #333;
+    font-size: 17px;
+    font-family: "TradeGothicLTStd-Bold";
+    text-transform: uppercase;
+    background: #f6f6f6;
+    margin-bottom: 8px;
+    text-decoration: none;
+    list-style: none;
+    left: 0;
+    
+   
+    padding: 12px 1rem;
+    
+   
     
     
 
     
     
 }
+
+header section:first-of-type ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+main section:nth-of-type(1) article:first-child{
+    width: 100%;
+    position: relative;
+    z-index: -2;
+    margin: 0;
+    padding-bottom: 2em;
+    height: 100%;
+    
+}
+
+main section:nth-of-type(1) img{
+    position: absolute;
+    max-width: 100%;
+    top:-1.5em;
+    z-index: -1;
+  
+    
+}
+main section:nth-of-type(1) article:first-child h1{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+    top:5.5em;
+    font-size: 2em;
+    
+}
+
+main section:nth-of-type(1) article:first-child button{
+    border: none;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    padding: 8px 12px;
+    font-size: 1em;
+    top: 16em;
+    left: 8em;
+    
+    
+    
+    position: absolute;
+   
+    
+    
+    
+
+}
+
+main section:first-child{
+    margin-bottom: 20em;
+}
+
+main section:nth-of-type(3){
+    display: grid;
+    grid grid-template-columns: 1fr 1fr;
+    grid-gap: 8px;
+    
+}
+
+main section:nth-of-type(3) article:nth-of-type(1) {
+    position: relative;
+   
+}
+main section:nth-of-type(3)  article:nth-of-type(1) img  {
+    position: absolute;
+    max-width: 400px;
+}
+
+main section:nth-of-type(3) article:nth-of-type(1) h1 {
+    position: absolute;
+    top: 7em;
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    text-shadow: 0px 16px 24px rgba(0, 0, 0, .25);
+    left: 1em;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+main section:nth-of-type(3) article:nth-of-type(1) h1 span {
+    color: rgb(29, 248, 252);
+ 
+}
+
+main section:nth-of-type(3) article:nth-of-type(1) button {
+    position: absolute;
+    top: 19em;
+    border: none;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-family: "TradeGothicLTStd-Bold";
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #f35737;
+    display: inline-block;
+    padding: 8px 12px;
+    left: 2em
+}
+
+img {
+    display: block;
+}
+
+
+
+
+
+
+main section:nth-of-type(3) article:nth-of-type(2) {
+    position: relative;
+   
+}
+main section:nth-of-type(3)  article:nth-of-type(2) img  {
+    position: absolute;
+    max-width: 400px;
+}
+
+main section:nth-of-type(3) article:nth-of-type(2) h1 {
+    position: absolute;
+    top: 7em;
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    text-shadow: 0px 16px 24px rgba(0, 0, 0, .25);
+    left: 1em;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+main section:nth-of-type(3) article:nth-of-type(2) h1 span {
+    color: rgb(29, 248, 252);
+ 
+}
+
+main section:nth-of-type(3) article:nth-of-type(2) button {
+    position: absolute;
+    top: 19em;
+    border: none;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-family: "TradeGothicLTStd-Bold";
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #f35737;
+    display: inline-block;
+    padding: 8px 12px;
+    left: 2em
+}
+
+
+main section:nth-of-type(4) h3 {
+    line-height: 24px;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    color: #4a545b;
+    text-align: center;
+}
+
+main section:nth-of-type(4) h1{
+    font-size: 44px;
+    line-height: 52px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(23, 211, 177);
+}
+
+main section:nth-of-type(4) button{
+    background: #fff;
+    color: #333;
+    border: 2px solid #333;
+    cursor: pointer;
+    
+    text-transform: uppercase;
+ 
+    font-size: 18px;
+    
+    
+    text-align: center;
+    padding: 6px 12px;
+    margin-left:  5px 
+    
+    
+    
+}
+
+main section:nth-of-type(4) span{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1.5em;
+    margin-top: 2em;
+}
+
+main section:nth-of-type(4) button:nth-of-type(2){
+    color: #fff;
+    background: #333;
+    
+}
+
+
+
+main section:nth-of-type(4){
+    margin-top: 7em;
+}
+
+
+
+footer {
+    background-color: #333;
+    border: none;
+    position: relative;
+    color: white;
+    padding: 20px;
+    line-height: 1.5;
+    
+}
+
+footer li{
+    padding: 10px 0px;
+    font-size: 16px;
+    text-decoration: none;
+    list-style: none;
+    
+        
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+footer h3 {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+footer span {
+    color: #F35737;
+}
+
+footer p{
+
+    padding-top: 8px;
+    display: none;
+}
+
+footer button {
+    margin-top: 16px;
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    text-transform: uppercase;
+    font-family: "TradeGothicLTStd-Bold";
+    font-size: 18px;
+    padding: 2px 12px;
+    line-height: 34px;
+    
+    display: none;
+}
+
+footer img{ 
+    max-height: 40px;
+}
+
+footer section:nth-of-type(4) ul{
+   justify-content: flex-start;
+    display: flex;
+    
+    
+}
+
+footer section:nth-of-type(4) ul li{ 
+    margin: 0 15px 0 0;
+}
+
+
+
+
+    
+
+}
+
+
