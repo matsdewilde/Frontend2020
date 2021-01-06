@@ -14,7 +14,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+Ik ben nog niet klaar. hopelijk kan ik zo veel mogelijk afmaken. Wat ik heb gemaakt vind ik redelijk goed, maar ben nog niet tevreden. Tijdens de vakantie heb ik wegens persoonlijke omstandigheden geen tijd gehad voor schoolwerk, wat enorm klote was. Ik heb frontend op een lager pitje gezet omdat door persoonlijke omstandigheden al het schoolwerk ophoopte. 
+
+Ik moet n
 
 **Screenshot(s):**
 
