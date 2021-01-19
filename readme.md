@@ -1,5 +1,5 @@
 # Procesverslag
-**Auteur:** Mats de Wilde
+**Auteur:** -jouw naam-
 
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
 
@@ -14,9 +14,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Eindgesprek (week 7/8)
 
-Ik ben nog niet klaar. hopelijk kan ik zo veel mogelijk afmaken. Wat ik heb gemaakt vind ik redelijk goed, maar ben nog niet tevreden. Tijdens de vakantie heb ik wegens persoonlijke omstandigheden geen tijd gehad voor schoolwerk, wat enorm klote was. Ik heb frontend op een lager pitje gezet omdat door persoonlijke omstandigheden al het schoolwerk ophoopte. 
-
-Ik moet n
+-dit ging goed & dit was lastig-
 
 **Screenshot(s):**
 
@@ -40,7 +38,7 @@ Ik moet n
 
 ### Stand van zaken
 
-Vind het lastig om weer op gang te komen. Alles voelt weer een beetje nieuw, dus is het weer enorm wennen. Ik hoop dat de HTML nu een beetje goed gaat in ieder geval, want ik merkte dat dat echt stroef verliep de eerste weken. Ik ben met css begonnen, maar ben nog totaal niet ver. Ik was enorm druk met het afronden van mijn projectsfase dus had weinig tijd voor Frontend helaas.
+-dit ging goed & dit was lastig-
 
 **Screenshot(s):**
 
@@ -64,23 +62,23 @@ Vind het lastig om weer op gang te komen. Alles voelt weer een beetje nieuw, dus
 
 ## Breakdownschets (week 1)
 
+-uitwerken voor de 1e werkgroep - eind van de eerste week-
 
 
-<img src="images/Breakdownschets.svg" width="375px" alt="omschrijving van de pagina">
 
 ## Intake (week 1)
 -uitwerken voor de kick-off werkgroep - begin van de eerste week-
 
-**Je startniveau:** Rood
+**Je startniveau:** -kies uit zwart, rood óf blauw-
 
-**Je focus:** Responsive
+**Je focus:** -kies uit responsive óf surface plane-
 
-**Je opdracht:** https://www.reef.eu/
+**Je opdracht:** -link naar de website die je gaat namaken óf de naam van je eigen ontwerp-
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
-<img src="images/screencapture-reef-eu-2020-11-16-16_05_18.png" width="375px" alt="omschrijving van de pagina">
+<img src="images/dummy-plaatje.svg" width="375px" alt="omschrijving van de pagina">
 
 **Screenshot(s) van de tweede pagina (small screen):**
 
-<img src="images/screencapture-reef-eu-heren-2020-11-16-16_05_34.png" width="375px" alt="omschrijving van de pagina">
+<img src="images/dummy-plaatje.svg" width="375px" alt="omschrijving van de pagina">

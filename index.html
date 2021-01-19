@@ -9,16 +9,20 @@
     <title>Reef</title>
 
     <link href="styles/style.css" rel="stylesheet">
+    <script src="scripts/script.js"></script>
 </head>
 
 <body>
 
     <header>
 
-        <section>
+        <section id="dezedus" class="menu">
 
-            <p>TAAL</p>
-            <h3>Categorien</h3>
+            <p>Menu sluiten</p>
+            <img src="images/witcross.png" id="deandere">
+
+            <p>TAAL:</p>
+            <h3>Categorieen</h3>
 
             <ul>
                 <li>Heren</li>
@@ -40,11 +44,15 @@
 
         <section>
             <nav>
+                
+                
+             
+                
 
 
                 <ul>
 
-                    <li><a id="hamburger" href=""><img src="images/hamburger.png"> </a></li>
+                    <li id="hamburger"><img href="" src="images/hamburger.png"></li>
                     <li><a href=""><img src="images/search.svg"></a></li>
                     <span></span>
                     <li><a href=""><img src="https://www.reef.eu/media/33/30/82/1585726202/reef-logo-new.svg"></a></li>
@@ -68,9 +76,6 @@
                 </a>
             </article>
 
-
-
-
         </section>
 
         <section>
@@ -87,7 +92,7 @@
             <article>
                 <a>
                     <img src="https://www.reef.eu/media/93/9d/57/1606466417/REEF-Home-Sage-Men.jpg">
-                    <h1>Cashion Sage SE <span>20% Korting</span></h1>
+                    <h1>Cashion Sage SE <br><span>20% Korting</span></h1>
                     <button> Shop Heren</button>
                 </a>
             </article>
@@ -102,7 +107,7 @@
 
             <article>
                 <a>
-                    <img>
+                    <img src="https://www.reef.eu/media/2a/44/6d/1599567870/REEF-Home-SS20-Kids-tiny%20%281%29.jpg">
                     <h1>Kids </h1>
                     <button> Shop </button>
                 </a>
@@ -110,15 +115,15 @@
 
             <article>
                 <a>
-                    <img>
-                    <h1>Cashion Sage SE 20% OFF</h1>
+                    <img src="https://www.reef.eu/media/4c/ec/82/1606466306/REEF-Home-Sage-Women.jpg">
+                    <h1>Cashion Sage <br><span>SE 20% OFF </span></h1>
                     <button> Shop Dames</button>
-                </a>
+                </a> 
             </article>
 
             <article>
                 <a>
-                    <img>
+                    <img src="https://www.reef.eu/media/7c/3e/a5/1599567651/REEF-Home-SS20-arch-1%20%281%29.jpg">
                     <h1>Arch Support</h1>
                     <button> Shop Heren</button>
                 </a>
@@ -126,7 +131,7 @@
 
             <article>
                 <a>
-                    <img>
+                    <img src="https://www.reef.eu/media/17/d1/f5/1599567654/REEF-Home-SS20-Blog-2%20%281%29.jpg">
                     <h1>Blog </h1>
                     <button> Lees meer </button>
                 </a>
@@ -146,14 +151,18 @@
 
 
             <article>
-                <img>
+                <img src="images/slippers/slipper1.jpg" id="vlag" class="vlag">
+
+                <button id="terug" class="terug">&lt;</button>
+                <button id="vooruit" class="vooruit">&gt;</button>
+                
                 <h4>30%</h4>
                 <h4>Cushion Phantom Raven/Blue</h4>
-                <p>$28,00 $40,00</p>
+                <p>$28,00 $40,00 </p>
             </article>
 
 
-            <img>
+            <img src="https://www.reef.eu/media/b7/5a/c4/1583845000/FEB_REFRESH_HP_DESKTOP_IMAGES-FINAL-SPOT-6.jpg">
 
         </section>
 
@@ -173,9 +182,9 @@
 
         <section>
 
-            <h3>Over reef</h3>
+            <h3 id="overreef">Over reef</h3>
 
-            <ul>
+            <ul id="reef" class="geenreef">
                 <li>Over reef</li>
                 <li>Contact</li>
                 <li>Blog</li>
@@ -190,9 +199,9 @@
 
         <section>
 
-            <h3>klantenservice</h3>
+            <h3 id="klanten">klantenservice</h3>
 
-            <ul>
+            <ul id="klantenzien" class="klant">
                 <li>Meest gestelde vragen</li>
                 <li>Betaalmogelijkheden</li>
                 <li>Ruilen en retouneren</li>
@@ -206,15 +215,15 @@
 
         <section>
 
-            <h3>Vragen?</h3>
+            <h3 id="javragen">Vragen?</h3>
 
-            <p>
+            <p id="vraag" class="vragen">
                 Onze 2-talige klantenservice (NL-EN) is bereikbaar van ma t/m vrij van 09:00 - 16:00 uur.<br>
-                Je kunt een e-mail sturen naar:<span>customercare@reef.eu</span>
+                Je kunt een e-mail sturen naar:<span> customercare@reef.eu</span>
                 Wij streven ernaar om binnen twee werkdagen te reageren
             </p>
 
-            <button> Meest gestelde vragen</button>
+            <button id="vraagbutton" class="vragen"> Meest gestelde vragen</button>
 
         </section>
 
@@ -237,5 +246,7 @@
 
 
     </footer>
+
+    <script src="scripts/script.js"></script>
 
 </body></html>

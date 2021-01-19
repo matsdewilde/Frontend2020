@@ -4,6 +4,16 @@
 *::before {
     box-sizing: border-box;
 }
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'myfont'
+}
+
+@font-face{
+    font-family: 'myfont';
+    src: url('Block Berthold Regular.ttf') format('truetype');
+}
 
 main section:nth-of-type(2) p {
     font-family: sans-serif;
@@ -97,6 +107,8 @@ header nav ul{
     position: relative;
 }
 
+
+
 header nav img{
     height: 25px;
     text-decoration: none;
@@ -116,20 +128,60 @@ header nav li:nth-of-type(3) img{
 
 }
 
-header nav {
+
+
+.menu{
     
+    padding: 15px;
+    position: absolute;
+    background-color: white;
+    z-index: 10;
+    
+    transform: translateX(-100%);
+    transition: .5s;
+
 }
+
 header section:first-of-type{
+   transition: .5s;
+    position: absolute;
+    background-color: white;
+    z-index: 10;
     padding: 15px;
-    display: none;
-
 }
 
-#menu{
-    padding: 15px;
-    display: block;
 
+
+
+header section:first-of-type img{
+    position: absolute;
+    height: 22px;
+    right: 12px;
+    top: 12px;
 }
+
+header section:first-of-type p:first-of-type{
+    margin-left: -15px;;
+    margin-top: -10px;
+    text-transform: uppercase;
+    color: white;
+    background: #333;
+
+    width: 400px;
+    padding: 10px;
+    padding-right: 00px;
+    
+        
+}
+
+header section:first-of-type p:nth-of-type(2){
+    margin-left: 15px;
+}
+header section:first-of-type h3{
+    margin-left: 15px;
+}
+
+
 
 header section:first-of-type li{
     color: #333;
@@ -213,18 +265,26 @@ main section:first-child{
 
 main section:nth-of-type(3){
     display: grid;
-    grid grid-template-columns: 1fr 1fr;
-    grid-gap: 8px;
+    grid grid-template-columns: 1fr 1fr 1fr;
+    
+    grid-column-gap: 10px;
+    grid-row-gap: 5px;
+    margin-bottom: 6em;
+    margin-top: 4em;
     
 }
 
-main section:nth-of-type(3) article:nth-of-type(1) {
-    position: relative;
+main section:nth-of-type(3) article a {
+    position: absolute;
+    
+    
    
 }
 main section:nth-of-type(3)  article:nth-of-type(1) img  {
-    position: absolute;
-    max-width: 400px;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    
 }
 
 main section:nth-of-type(3) article:nth-of-type(1) h1 {
@@ -233,7 +293,7 @@ main section:nth-of-type(3) article:nth-of-type(1) h1 {
     color: rgb(255, 255, 255);
     font-size: 32px;
     text-shadow: 0px 16px 24px rgba(0, 0, 0, .25);
-    left: 1em;
+    left: 18px;
     text-transform: uppercase;
     font-weight: bolder;
 }
@@ -255,43 +315,86 @@ main section:nth-of-type(3) article:nth-of-type(1) button {
     background-color: #f35737;
     display: inline-block;
     padding: 8px 12px;
-    left: 2em
-}
-
-img {
-    display: block;
-}
-
-
-
-
-
-
-main section:nth-of-type(3) article:nth-of-type(2) {
-    position: relative;
-   
-}
-main section:nth-of-type(3)  article:nth-of-type(2) img  {
-    position: absolute;
-    max-width: 400px;
+    left: 18px;
 }
 
 main section:nth-of-type(3) article:nth-of-type(2) h1 {
+    position: absolute;
+    top: 3em;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-shadow: 0px 16px 24px rgba(0, 0, 0, .25);
+    left: 18px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    z-index: 10;
+}
+
+
+main section:nth-of-type(3) article:nth-of-type(2) button {
+    position: absolute;
+    top: 8em;
+    border: none;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-family: "TradeGothicLTStd-Bold";
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #f35737;
+    display: inline-block;
+    padding: 8px 12px;
+    left: 1em;
+    z-index: 10;
+}
+
+main section:nth-of-type(3) article:nth-of-type(3) h1 {
+    position: absolute;
+    top: 4em;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-shadow: 0px 16px 24px rgba(0, 0, 0, .25);
+    left: 1em;
+    text-transform: uppercase;
+    font-weight: bolder;
+    z-index: 10;
+}
+
+
+main section:nth-of-type(3) article:nth-of-type(3) button {
+    position: absolute;
+    top: 8em;
+    border: none;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-family: "TradeGothicLTStd-Bold";
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #f35737;
+    display: inline-block;
+    padding: 8px 12px;
+    left: 1em;
+    z-index: 10;
+}
+
+main section:nth-of-type(3) article:nth-of-type(4) h1 {
     position: absolute;
     top: 7em;
     color: rgb(255, 255, 255);
     font-size: 32px;
     text-shadow: 0px 16px 24px rgba(0, 0, 0, .25);
-    left: 1em;
+    left: 18px;
     text-transform: uppercase;
     font-weight: bolder;
 }
-main section:nth-of-type(3) article:nth-of-type(2) h1 span {
+
+main section:nth-of-type(3) article:nth-of-type(4) h1 span {
     color: rgb(29, 248, 252);
  
 }
 
-main section:nth-of-type(3) article:nth-of-type(2) button {
+main section:nth-of-type(3) article:nth-of-type(4) button {
     position: absolute;
     top: 19em;
     border: none;
@@ -304,8 +407,162 @@ main section:nth-of-type(3) article:nth-of-type(2) button {
     background-color: #f35737;
     display: inline-block;
     padding: 8px 12px;
-    left: 2em
+    left: 18px;
 }
+
+main section:nth-of-type(3) article:nth-of-type(5) h1 {
+    position: absolute;
+    top: 4em;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-shadow: 0px 16px 24px rgba(0, 0, 0, .25);
+    left: 18px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    z-index: 10;
+}
+
+
+main section:nth-of-type(3) article:nth-of-type(5) button {
+    position: absolute;
+    top: 8em;
+    border: none;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-family: "TradeGothicLTStd-Bold";
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #f35737;
+    display: inline-block;
+    padding: 8px 12px;
+    left: 18px;;
+    z-index: 10;
+}
+
+main section:nth-of-type(3) article:nth-of-type(6) h1 {
+    position: absolute;
+    top: 4em;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-shadow: 0px 16px 24px rgba(0, 0, 0, .25);
+    left: 1em;
+    text-transform: uppercase;
+    font-weight: bolder;
+    z-index: 10;
+}
+
+
+main section:nth-of-type(3) article:nth-of-type(6) button {
+    position: absolute;
+    top: 8em;
+    border: none;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-family: "TradeGothicLTStd-Bold";
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #f35737;
+    display: inline-block;
+    padding: 8px 12px;
+    left: 1em;
+    z-index: 10;
+}
+
+
+
+main section:nth-of-type(4) img:last-of-type {
+    display: block;
+}
+
+
+main section:nth-of-type(3) article:nth-of-type(1){
+    grid-column: span 2;
+    grid-row-start: 1;
+    grid-row: span 2;
+    height: 400px;
+    
+    
+}
+
+main section:nth-of-type(3) article:nth-of-type(2){
+    grid-row-start: 3;
+    grid-column: span 1;
+    height: 200px;
+    
+}
+
+main section:nth-of-type(3) article:nth-of-type(3){
+    grid-row-start: 3;
+    grid-column-start: 2;
+    height: 200px;
+    
+    
+}
+
+main section:nth-of-type(3) article:nth-of-type(4){
+   grid-column-start: 1;
+    grid-column: span 2;
+    grid-row: 4;
+    height: 400px;
+   
+    
+    
+    
+}
+
+main section:nth-of-type(3) article:nth-of-type(5){
+    grid-row-start: 6;
+    grid-column: span 1;
+    height: 200px;
+}
+
+main section:nth-of-type(3) article:nth-of-type(6){
+    grid-row-start: 6;
+    grid-column: span 1;
+    grid-column-start: 2;
+    height: 200px;
+}
+
+
+
+
+main section:nth-of-type(3)  article:nth-of-type(2) img  {
+    position: relative;
+    max-width: 200px;
+}
+
+
+main section:nth-of-type(3)  article:nth-of-type(3) img  {
+    position: relative;
+    max-width: 200px;
+    
+}
+
+
+main section:nth-of-type(3)  article:nth-of-type(4) img  {
+    position: relative;
+    max-width: 400px;
+    
+   
+}
+
+
+main section:nth-of-type(3)  article:nth-of-type(5) img  {
+    position: relative;
+    max-width: 200px;
+    
+}
+
+main section:nth-of-type(3)  article:nth-of-type(6) img  {
+    position: relative;
+    max-width: 200px;
+    
+}
+
+
+
 
 
 main section:nth-of-type(4) h3 {
@@ -324,7 +581,7 @@ main section:nth-of-type(4) h1{
     color: rgb(23, 211, 177);
 }
 
-main section:nth-of-type(4) button{
+main section:nth-of-type(4) span button{
     background: #fff;
     color: #333;
     border: 2px solid #333;
@@ -343,14 +600,32 @@ main section:nth-of-type(4) button{
     
 }
 
-main section:nth-of-type(4) span{
+main section:nth-of-type(4) article button{
+    position: absolute;
+    top: 12em;
+    
+}
+main section:nth-of-type(4) article button:first-of-type{
+    
+    left: -2em;
+    
+}
+main section:nth-of-type(4) article button:last-of-type{
+    
+    right: -2em;
+    
+    
+}
+
+
+main section:nth-of-type(4) span:first-of-type{
     display: flex;
     justify-content: flex-end;
     margin-right: 1.5em;
     margin-top: 2em;
 }
 
-main section:nth-of-type(4) button:nth-of-type(2){
+main section:nth-of-type(4) span button:nth-of-type(2){
     color: #fff;
     background: #333;
     
@@ -363,6 +638,60 @@ main section:nth-of-type(4){
 }
 
 
+
+main section:nth-of-type(4) article img{
+    max-width: 320px;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+main section:nth-of-type(4) article {
+    
+    position: relative;
+    margin:  40px 40px 0 40px ;
+    
+    
+
+}
+
+main section:nth-of-type(4) article p {
+    font-weight: 100;
+}
+
+
+
+
+
+
+main section:nth-of-type(4) article h4:first-of-type {
+    background-color: #e52427;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: .5em;
+    padding: 4px 8px;
+    font-size: 18px;
+}
+
+main section:nth-of-type(4) img{
+    max-width: 370px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 4em;
+    
+    
+}
+
+
+main section:nth-of-type(4) article button{
+    background-color: transparent;
+    border: none;
+    color: darkgray
+}
 
 footer {
     background-color: #333;
@@ -387,11 +716,12 @@ footer ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    display: none;
+    
 }
 footer h3 {
     font-size: 20px;
-    margin-top: 0;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 footer span {
@@ -400,12 +730,12 @@ footer span {
 
 footer p{
 
-    padding-top: 8px;
-    display: none;
+    padding-top: 4px;
+    
 }
 
 footer button {
-    margin-top: 16px;
+   
     background: transparent;
     color: #fff;
     border: 2px solid #fff;
@@ -414,8 +744,8 @@ footer button {
     font-size: 18px;
     padding: 2px 12px;
     line-height: 34px;
+    margin-bottom: 20px;
     
-    display: none;
 }
 
 footer img{ 
@@ -433,6 +763,17 @@ footer section:nth-of-type(4) ul li{
     margin: 0 15px 0 0;
 }
 
+.vragen{
+    display: none;
+}
+
+.klant{
+    display: none;
+}
+
+.geenreef{
+    display: none;
+}
 
 
 
